@@ -1,0 +1,40 @@
+table {
+  table-layout: fixed;
+}
+
+td {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+thead th:nth-child(1) {
+  width: min-content;
+}
+
+thead th:nth-child(2) {
+  width: 15em;
+}
+
+tr *:nth-child(2),
+tr *:nth-child(7) {
+  text-align: center;
+}
+
+tr td:nth-child(2) {
+  direction: rtl;
+}
+
+thead th:nth-child(3),
+thead th:nth-child(4) {
+  width: 18em;
+}
+
+thead th:nth-child(5),
+thead th:nth-child(6) {
+  width: 10em;
+}
+
+thead th:nth-child(7) {
+  width: 10em;
+}
